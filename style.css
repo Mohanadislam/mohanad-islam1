@@ -8,8 +8,8 @@ body{
     background-color: teal;
 }
 .item{
-width: 500px; ;
-height: 500px; ;
+width: 500px; 
+height: 500px; 
 background-color: blue;
 margin-top: 19%;
 margin-left: 25%;
@@ -29,4 +29,5 @@ input{
 input:focus{
     background-color: red;
     color: white;
+
 }
