@@ -1,0 +1,32 @@
+*{
+padding: 0%;
+margin: 0;
+box-sizing: border-box;
+font-size: 20px;
+}
+body{
+    background-color: teal;
+}
+.item{
+width: 500px; ;
+height: 500px; ;
+background-color: blue;
+margin-top: 19%;
+margin-left: 25%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: red;
+transition: all 1.5s;
+}
+input{
+    border-radius: 12px;
+}
+.item:hover{
+    transform:scale(1,2);
+}
+input:focus{
+    background-color: red;
+    color: white;
+}
